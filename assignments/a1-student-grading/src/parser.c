@@ -118,11 +118,11 @@ int parse_file(FILE *input, student_t **students, int *total_stu) {
 		stu_count++;
 	}
 
-	debug_print_students(*students, *total_stu);
+	//debug_print_students(*students, *total_stu);
 
 	return 1;
 }
-
+/*
 void debug_print_students(const student_t *students, int total_stu) {
 	printf("\n=== Debug: Parsed Student Data ===\n");
 	for (int i = 0; i < total_stu; i++) {
@@ -141,3 +141,4 @@ void debug_print_students(const student_t *students, int total_stu) {
 	}
 	printf("=================================\n\n");
 }
+*/

@@ -10,7 +10,7 @@ void compute_student_results(student_t *student) {
 	//calculate total marks and check for failures
 	for(int i = 0; i < MAX_SUBJECTS; i++) {
 		int sub_marks = student->subjects[i].min_marks + student->subjects[i].maj_marks;
-		
+
 		//minimum passing marks is 50 per subject
 		if(sub_marks < 50) {
 			has_failed = 1;
@@ -30,7 +30,7 @@ void compute_student_results(student_t *student) {
 grade_t assign_grade(float percentage, int has_failed) {
 	//if failed in any subject, grade is F
 	if(has_failed) return GRADE_F;
-	
+
 	//grade assignment based on percentage
 	if (percentage >= 90) return GRADE_O;
 	if (percentage >= 85) return GRADE_A_PLUS;
@@ -39,7 +39,7 @@ grade_t assign_grade(float percentage, int has_failed) {
 	if (percentage >= 60) return GRADE_B;
 	if (percentage >= 55) return GRADE_C;
 	if (percentage >= 50) return GRADE_D;
-	
+
 	return GRADE_F;
 }
 
@@ -48,18 +48,18 @@ class_t* class_avg(student_t *students, int total_stu) {
 	if (class_stats == NULL) {
 		return NULL;
 	}
-	
+
 	float highest = 0, lowest = INT_MAX;
 	int class_total = 0;
 
 	for(int i = 0; i < total_stu; i++) {
 		class_total += students[i].total_marks;
-		
+
 		if(students[i].total_marks > highest) {
 			class_stats->class_highest = students[i].total_marks;
 			highest = class_stats->class_highest;
 		}
-		
+
 		if(students[i].total_marks < lowest) {
 			class_stats->class_lowest  = students[i].total_marks;
 			lowest = class_stats->class_lowest;

@@ -14,7 +14,7 @@ int main()
 	student_t *students = NULL;
 	int total_students = 0;
 
-	input = fopen("input.txt", "r");
+	input = fopen("data/input.txt", "r");
 	if (input == NULL) {
 		perror("Failed to open input file");
 		goto cleanup;
@@ -35,7 +35,7 @@ int main()
 	}
 
 	//output for the program
-	output = fopen("output.txt", "w");
+	output = fopen("data/output.txt", "w");
 	if (output == NULL) {
 		perror("Failed to open output file");
 		goto cleanup;

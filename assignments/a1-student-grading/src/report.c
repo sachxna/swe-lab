@@ -72,6 +72,8 @@ void write_report(FILE *output, const student_t *students, int total_students) {
 	fprintf(output, "Highest Percentage      : %.2f%%\n", highest_percentage);
 	fprintf(output, "Lowest Percentage       : %.2f%%\n", lowest_percentage);
 
+	fprintf(output, "\n");
+
 	fprintf(output, "O  : %d student(s)\n", grade_count[GRADE_O]);
 	fprintf(output, "A+ : %d student(s)\n", grade_count[GRADE_A_PLUS]);
 	fprintf(output, "A  : %d student(s)\n", grade_count[GRADE_A]);
