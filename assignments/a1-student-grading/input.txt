@@ -1,0 +1,22 @@
+3
+S001
+John Doe
+Mathematics 35 55
+Physics 30 50
+Chemistry 38 58
+ComputerScience 40 60
+English 32 48
+S002
+Jane Smith
+Mathematics 40 60
+Physics 38 57
+Chemistry 35 55
+ComputerScience 39 59
+English 40 58
+S003
+Robert Brown
+Mathematics 25 45
+Physics 30 50
+Chemistry 28 42
+ComputerScience 35 55
+English 30 50

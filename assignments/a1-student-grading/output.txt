@@ -1,0 +1,16 @@
+ID       Name            Subject1        Subject2        Subject3        Subject4        Subject5        Total    Percentage Grade 
+S001     John Doe        Mathematics( 90) Physics   ( 80) Chemistry ( 96) ComputerScience(100) English   ( 80) 446      89.20      A+    
+S002     Jane Smith      Mathematics(100) Physics   ( 95) Chemistry ( 90) ComputerScience( 98) English   ( 98) 481      96.20      O     
+S003     Robert Brown    Mathematics( 70) Physics   ( 80) Chemistry ( 70) ComputerScience( 90) English   ( 80) 390      78.00      A     
+
+Class Average Percentage: 87.80%
+Highest Percentage      : 96.20%
+Lowest Percentage       : 78.00%
+O  : 1 student(s)
+A+ : 1 student(s)
+A  : 1 student(s)
+B+ : 0 student(s)
+B  : 0 student(s)
+C  : 0 student(s)
+D  : 0 student(s)
+F  : 0 student(s)
