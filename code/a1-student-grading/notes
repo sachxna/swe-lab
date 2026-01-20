@@ -1,0 +1,32 @@
+legend:
+- just some thoughts and points, will refine this
+= todo  for the project
+===== VERY VERY IMPORTANT (knowledge/try new)
+
+thoughts and notes about the project while making it:
+
+Assignment 1:
+- learnt that to us sscanf,i would need the buffer size to be explicitly allocated, as opposed to char *var -> seg fault because where is sscanf writin		g to? 
+- chose to allocate statically -> sub_name[64]
+- need to free memory
+- need to add error checking
+- why const char?
+- check for both null and empty string -> they are not the same
+- note: accept spaces in name
+- float division should be x/100.f to make it true float div
+- goto function for early returns
+
+Assignment 2:
+- cohesion -> how well the things within a module will work together; so like if funcitons within a header file have high cohesion, which is preferred -> they work well to achieve a common goal
+- coupling -> how are modules interconnected with each other; so is parse.h dependent on say, computation.h? lower the coupling, the better -> changes in one module shouldnt affect another module
+= so now, need to separate the functions into headers and files such that -> low coupling and high cohesion
+= user defined header files are already made -> refine it: is it reusable?
+= usability of the software is low -> no GUI for the software; but there are relevant error messages that pop up when needed; maybe refine this too? 
+= check algorithm complexity + memory allocation for student details
+===== TRY INVOKATION OF THE FUNCTIONS OVER THE NETWORK!!!=====
+
+todo:
+T1: --
+T2: 
+	- modularisation
+	- change the input logic for students: why use predefined number of students per file? either specify that youre taking n students and parse as if only so many per file -> bad idea/ dynamically figure out? 

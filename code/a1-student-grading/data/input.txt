@@ -1,4 +1,4 @@
-3
+6
 S001
 John Doe
 Mathematics 35 55
@@ -20,3 +20,24 @@ Physics 30 50
 Chemistry 28 42
 ComputerScience 35 55
 English 30 50
+S101
+Rahul Kumar
+Mathematics 35 50
+Physics 30 45
+Chemistry 28 40
+Biology 32 48
+English 36 52
+S102
+Ananya Sharma
+Mathematics 38 55
+Physics 34 50
+Chemistry 30 44
+Biology 33 49
+English 37 54
+S103
+Arjun Mehta
+Mathematics 20 25
+Physics 18 30
+Chemistry 22 28
+Biology 24 32
+English 26 35
