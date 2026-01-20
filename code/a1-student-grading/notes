@@ -6,7 +6,7 @@ legend:
 thoughts and notes about the project while making it:
 
 Assignment 1:
-- learnt that to us sscanf,i would need the buffer size to be explicitly allocated, as opposed to char *var -> seg fault because where is sscanf writin		g to? 
+- learnt that to us sscanf,i would need the buffer size to be explicitly allocated, as opposed to char *var -> seg fault because where is sscanf writing to? 
 - chose to allocate statically -> sub_name[64]
 - need to free memory
 - need to add error checking
@@ -23,10 +23,16 @@ Assignment 2:
 = user defined header files are already made -> refine it: is it reusable?
 = usability of the software is low -> no GUI for the software; but there are relevant error messages that pop up when needed; maybe refine this too? 
 = check algorithm complexity + memory allocation for student details
-===== TRY INVOKATION OF THE FUNCTIONS OVER THE NETWORK!!!=====
+===== TRY INVOCATION OF THE FUNCTIONS OVER THE NETWORK!!!=====
+- documentation using draw.io for uml diagrams? why uml -> standard modelling language, used to develop visual models for the processes within a system.
+= learn uml and how it is used for documentation purposes -> what is better: logic/algorithms or diagram?
+= write module specification for the different modules -> name, input, pre condition, logic & output
+= test plan for project -> use the file given to do actual testing
+
 
 todo:
 T1: --
 T2: 
 	- modularisation
 	- change the input logic for students: why use predefined number of students per file? either specify that youre taking n students and parse as if only so many per file -> bad idea/ dynamically figure out? 
+	- 
